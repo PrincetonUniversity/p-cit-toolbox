@@ -147,9 +147,6 @@ set(gcf, 'Position', [50, 900, 500, 500]);
 
 color = [107, 107, 107] ./ 255; transparency = 0.4;
 hhh = jbfill(x_final, interval(1, :), interval(2, :), color, color, 0, transparency); hold on;
-hAnnotation = get(hhh, 'Annotation');
-hLegendEntry = get(hAnnotation', 'LegendInformation');
-set(hLegendEntry, 'IconDisplayStyle', 'off');
 plot(x_final, y_final, 'b-', 'LineWidth', 2);
 
 ylabel('Change in Memory Strength', 'FontSize', 15, 'FontName', 'Helvetica');
