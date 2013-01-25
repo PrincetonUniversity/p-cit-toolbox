@@ -190,7 +190,7 @@ importance_sampler.data_likelihood_alternative_hypothesis = data_likelihood_alte
 importance_sampler.data_likelihood_null_hypothesis = data_likelihood_null_hypothesis;
 
 % we calculate the data_likelihood over ALL particles by multiplying the data_likelihood for each particle by that particle's importance weight
-[~, importance_sampler.likratiotest] = likratiotest( w * data_likelihood_alternative_hypothesis', data_likelihood_null_hypothesis, 2, 1);
+[dummy_var, importance_sampler.likratiotest] = likratiotest( w * data_likelihood_alternative_hypothesis', data_likelihood_null_hypothesis, 2, 1);
 
 if any(isnan(normalized_w(:))), error('NaNs in normalized weights vector!'); end
 if any(isnan(exp_max_fval(:))), error('NaNs in Expectation maximilzation fval matrix!'); end
