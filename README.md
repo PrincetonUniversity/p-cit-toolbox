@@ -2,11 +2,11 @@ The Probabilistic Curve Induction and Testing (P-CIT) toolbox was developed to e
 
 Users of P-CIT should read the following documents, in the following order:
 
-1) Detre, G. J., Natarajan, A., Gershman, S. J., and Norman, K. A. (submitted). Moderate levels of activation lead to forgetting in the think/no-think paradigm. Neuropsychologia. http://p-cit-toolbox.googlecode.com/files/DetreEtAlSubmitted_Manuscript.pdf
+1) [Detre, G. J., Natarajan, A., Gershman, S. J., and Norman, K. A. (submitted). Moderate levels of activation lead to forgetting in the think/no-think paradigm. Neuropsychologia.](https://github.com/PrincetonUniversity/p-cit-toolbox/releases/download/Docs/DetreEtAlSubmitted_Manuscript.pdf)
 
-2) The supplementary materials for the above paper: http://p-cit-toolbox.googlecode.com/files/DetreEtAlSubmitted_Supplementals.pdf
+2) [The supplementary materials for the above paper.](https://github.com/PrincetonUniversity/p-cit-toolbox/releases/download/Docs/DetreEtAlSubmitted_Supplementals.pdf)
 
-3) The P-CIT Toolbox Manual: http://p-cit-toolbox.googlecode.com/files/p-cit_manual_v09_121412.pdf
+3) [The P-CIT Toolbox Manual](https://github.com/PrincetonUniversity/p-cit-toolbox/releases/download/Docs/p-cit_manual_v09_121412.pdf)
 
 Note that the Detre et al. paper and the accompanying supplementary materials are not yet in press, and they may change in minor ways before the paper is published.
 
